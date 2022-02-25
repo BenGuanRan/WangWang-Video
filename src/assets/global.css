@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+.normal {
+    box-sizing: content-box;
+}
+html,
+body,
+#app,
+#main,
+.el-container {
+    height: 100%;
+}
+body *::-webkit-scrollbar {
+    width: 5px;
+}
+body *::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+body *::-webkit-scrollbar-thumb {
+    background-color: #7a7a7c;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}

@@ -1,7 +1,7 @@
-# 青训营项目
+# wangwang-video
 
 #### Description
-字节跳动青训营获奖项目
+简易视频分享平台
 
 #### Software Architecture
 Software architecture description

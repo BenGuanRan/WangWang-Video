@@ -1,0 +1,33 @@
+$minWid: 960px;
+$left-margin: 120px;
+$theme: #fe5234;
+
+* {
+    border: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@mixin clearfixBA {
+    &::after,
+    &::before {
+        @extend .clearfix;
+    }
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:active,
+a:hover {
+    text-decoration: none;
+}
